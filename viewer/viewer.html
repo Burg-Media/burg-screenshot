@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Burg Screenshot</title>
+    <link rel="icon" href="../images/icon_32.png" />
+    <link rel="stylesheet" href="viewer.css" />
+  </head>
+  <body>
+    <header class="toolbar">
+      <a class="brand" href="viewer.html" data-i18n-title="myScreenshots">
+        <img src="../images/icon_32.png" alt="" width="22" height="22" />
+        <span>Burg Screenshot</span>
+      </a>
+
+      <div id="shot-info" class="info" hidden>
+        <a id="shot-title" target="_blank" rel="noopener noreferrer"></a>
+        <span id="shot-meta" class="muted"></span>
+      </div>
+
+      <div id="shot-actions" class="actions" hidden>
+        <button data-action="png" class="primary" data-i18n="btnPng"></button>
+        <button data-action="compress" data-i18n="btnCompress"></button>
+        <button data-action="jpg">JPG</button>
+        <button data-action="pdf-a4" data-i18n="btnPdfA4"></button>
+        <button data-action="pdf-single" data-i18n="btnPdfSingle"></button>
+        <button data-action="copy" data-i18n="btnCopy"></button>
+        <button data-action="delete" class="danger" data-i18n="btnDelete"></button>
+      </div>
+    </header>
+
+    <div id="compress" class="compress" hidden>
+      <label>
+        <span data-i18n="cFormat"></span>
+        <select id="c-format">
+          <option value="image/webp" data-i18n="cWebp"></option>
+          <option value="image/jpeg" data-i18n="cJpeg"></option>
+        </select>
+      </label>
+      <label class="grow">
+        <span data-i18n="cQuality"></span> <output id="c-quality-out">80</output>
+        <input type="range" id="c-quality" min="30" max="95" step="5" value="80" />
+      </label>
+      <label>
+        <span data-i18n="cWidth"></span>
+        <select id="c-width">
+          <option value="0" data-i18n="cOriginal"></option>
+          <option value="1920">Max. 1920 px</option>
+          <option value="1280">Max. 1280 px</option>
+          <option value="1024">Max. 1024 px</option>
+          <option value="800">Max. 800 px</option>
+        </select>
+      </label>
+      <span id="c-result" class="muted"></span>
+      <button id="c-download" class="primary" disabled data-i18n="cDownload"></button>
+    </div>
+    <div id="notice" class="notice" hidden></div>
+    <div id="parts" class="notice" hidden></div>
+
+    <main id="shot-view" hidden>
+      <img id="shot-image" alt="Screenshot" class="fit" />
+    </main>
+
+    <section id="library" hidden>
+      <h1 data-i18n="myScreenshots"></h1>
+      <p class="muted" data-i18n="libraryNote"></p>
+      <div id="grid" class="grid"></div>
+    </section>
+
+    <script src="../lib/i18n.js"></script>
+    <script src="../lib/db.js"></script>
+    <script src="../lib/pdf.js"></script>
+    <script src="viewer.js"></script>
+  </body>
+</html>

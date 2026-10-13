@@ -1,0 +1,194 @@
+{
+  "lang": {
+    "message": "nl"
+  },
+  "locale": {
+    "message": "nl-NL"
+  },
+  "extName": {
+    "message": "Burg Screenshot"
+  },
+  "extDescription": {
+    "message": "Screenshot van de volledige pagina, een selectie of het zichtbare deel. Lokaal opgeslagen, geen account, geen tracking."
+  },
+  "cmdCaptureFull": {
+    "message": "Volledige pagina vastleggen"
+  },
+  "cmdCaptureSelection": {
+    "message": "Selectie vastleggen"
+  },
+  "errNotCapturable": {
+    "message": "Deze pagina mag Chrome niet laten vastleggen (bijv. chrome://, Web Store)."
+  },
+  "errFileAccess": {
+    "message": "Zet bij Burg Screenshot \"Toegang tot bestands-URL's toestaan\" aan (chrome://extensions) en probeer opnieuw."
+  },
+  "errNoAccess": {
+    "message": "Geen toegang tot deze pagina. Klik opnieuw op het icoon of gebruik de sneltoets, en probeer het nog eens."
+  },
+  "errTabClosed": {
+    "message": "Het tabblad is gesloten of weggenavigeerd tijdens de opname."
+  },
+  "errReloaded": {
+    "message": "De pagina is tijdens de opname herladen."
+  },
+  "errReloadedOrLeft": {
+    "message": "De pagina is tijdens de opname herladen of weggenavigeerd."
+  },
+  "errSwitchedTab": {
+    "message": "Je wisselde van tabblad tijdens de opname. Probeer het opnieuw."
+  },
+  "errPrepare": {
+    "message": "De pagina kon niet worden voorbereid."
+  },
+  "progressLazy": {
+    "message": "Pagina doorlopen voor lazy-loading…"
+  },
+  "progressPrepare": {
+    "message": "Voorbereiden…"
+  },
+  "progressCapture": {
+    "message": "Vastleggen…"
+  },
+  "progressSavePart": {
+    "message": "Deel {0} van {1} opslaan…"
+  },
+  "progressSave": {
+    "message": "Opslaan…"
+  },
+  "selectHint": {
+    "message": "Sleep om een gebied te selecteren · Esc om te annuleren"
+  },
+  "popupSubtitle": {
+    "message": "Pagina vastleggen"
+  },
+  "modeFull": {
+    "message": "Volledige pagina"
+  },
+  "modeSelection": {
+    "message": "Selectie"
+  },
+  "modeVisible": {
+    "message": "Zichtbaar deel"
+  },
+  "modeVisibleSub": {
+    "message": "Wat je nu ziet"
+  },
+  "lazyLabel": {
+    "message": "Eerst doorscrollen (laadt lazy-loaded afbeeldingen)"
+  },
+  "myScreenshots": {
+    "message": "Mijn screenshots"
+  },
+  "shortcuts": {
+    "message": "Sneltoetsen"
+  },
+  "madeBy": {
+    "message": "Gemaakt door"
+  },
+  "statusSelection": {
+    "message": "Selectie starten…"
+  },
+  "statusStart": {
+    "message": "Starten…"
+  },
+  "errUnknown": {
+    "message": "Onbekende fout"
+  },
+  "btnPng": {
+    "message": "Download PNG"
+  },
+  "btnCompress": {
+    "message": "Kleiner…"
+  },
+  "btnPdfA4": {
+    "message": "PDF (A4)"
+  },
+  "btnPdfSingle": {
+    "message": "PDF (1 pagina)"
+  },
+  "btnCopy": {
+    "message": "Kopiëren"
+  },
+  "btnDelete": {
+    "message": "Verwijderen"
+  },
+  "cFormat": {
+    "message": "Formaat"
+  },
+  "cWebp": {
+    "message": "WebP (kleinst)"
+  },
+  "cJpeg": {
+    "message": "JPG (overal te openen)"
+  },
+  "cQuality": {
+    "message": "Kwaliteit"
+  },
+  "cWidth": {
+    "message": "Breedte"
+  },
+  "cOriginal": {
+    "message": "Origineel"
+  },
+  "cDownload": {
+    "message": "Download"
+  },
+  "libraryNote": {
+    "message": "Lokaal opgeslagen in deze browser. Niets wordt geüpload."
+  },
+  "notFound": {
+    "message": "Deze screenshot bestaat niet (meer)."
+  },
+  "partOf": {
+    "message": "deel {0} van {1}"
+  },
+  "truncated": {
+    "message": "Deze pagina was extreem lang en is afgekapt op 60.000 pixels (waarschijnlijk oneindig scrollen)."
+  },
+  "partsIntro": {
+    "message": "Pagina was te lang voor één afbeelding: "
+  },
+  "partN": {
+    "message": "deel {0}"
+  },
+  "partsPdf": {
+    "message": "· PDF (A4) bevat alle delen."
+  },
+  "partsCount": {
+    "message": "{0} delen"
+  },
+  "busy": {
+    "message": "Bezig…"
+  },
+  "failed": {
+    "message": "Mislukt: {0}"
+  },
+  "copied": {
+    "message": "Gekopieerd naar het klembord."
+  },
+  "deleted": {
+    "message": "Screenshot verwijderd."
+  },
+  "calculating": {
+    "message": "Berekenen…"
+  },
+  "webpTooLong": {
+    "message": " · te lang voor WebP, JPG gebruikt"
+  },
+  "notSmaller": {
+    "message": "(niet kleiner)"
+  },
+  "libraryEmpty": {
+    "message": "Nog geen screenshots. Klik op het Burg Screenshot-icoon of druk Alt+Shift+F op een pagina."
+  },
+  "remove": {
+    "message": "Verwijder"
+  },
+  "filePart": {
+    "message": "deel"
+  },
+  "fileSmall": {
+    "message": "klein"
+  }
+}

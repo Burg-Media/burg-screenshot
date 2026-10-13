@@ -1,0 +1,194 @@
+{
+  "lang": {
+    "message": "en"
+  },
+  "locale": {
+    "message": "en"
+  },
+  "extName": {
+    "message": "Burg Screenshot"
+  },
+  "extDescription": {
+    "message": "Screenshot of the full page, a selection or the visible area. Stored locally, no account, no tracking."
+  },
+  "cmdCaptureFull": {
+    "message": "Capture full page"
+  },
+  "cmdCaptureSelection": {
+    "message": "Capture selection"
+  },
+  "errNotCapturable": {
+    "message": "Chrome doesn't allow capturing this page (for example chrome:// pages or the Web Store)."
+  },
+  "errFileAccess": {
+    "message": "Turn on \"Allow access to file URLs\" for Burg Screenshot (chrome://extensions) and try again."
+  },
+  "errNoAccess": {
+    "message": "No access to this page. Click the icon again or use the keyboard shortcut, and try once more."
+  },
+  "errTabClosed": {
+    "message": "The tab was closed or navigated away during the capture."
+  },
+  "errReloaded": {
+    "message": "The page was reloaded during the capture."
+  },
+  "errReloadedOrLeft": {
+    "message": "The page was reloaded or navigated away during the capture."
+  },
+  "errSwitchedTab": {
+    "message": "You switched tabs during the capture. Please try again."
+  },
+  "errPrepare": {
+    "message": "The page couldn't be prepared."
+  },
+  "progressLazy": {
+    "message": "Scrolling through the page for lazy loading…"
+  },
+  "progressPrepare": {
+    "message": "Preparing…"
+  },
+  "progressCapture": {
+    "message": "Capturing…"
+  },
+  "progressSavePart": {
+    "message": "Saving part {0} of {1}…"
+  },
+  "progressSave": {
+    "message": "Saving…"
+  },
+  "selectHint": {
+    "message": "Drag to select an area · Esc to cancel"
+  },
+  "popupSubtitle": {
+    "message": "Capture this page"
+  },
+  "modeFull": {
+    "message": "Full page"
+  },
+  "modeSelection": {
+    "message": "Selection"
+  },
+  "modeVisible": {
+    "message": "Visible area"
+  },
+  "modeVisibleSub": {
+    "message": "What you see now"
+  },
+  "lazyLabel": {
+    "message": "Scroll through first (loads lazy-loaded images)"
+  },
+  "myScreenshots": {
+    "message": "My screenshots"
+  },
+  "shortcuts": {
+    "message": "Shortcuts"
+  },
+  "madeBy": {
+    "message": "Made by"
+  },
+  "statusSelection": {
+    "message": "Starting selection…"
+  },
+  "statusStart": {
+    "message": "Starting…"
+  },
+  "errUnknown": {
+    "message": "Unknown error"
+  },
+  "btnPng": {
+    "message": "Download PNG"
+  },
+  "btnCompress": {
+    "message": "Smaller…"
+  },
+  "btnPdfA4": {
+    "message": "PDF (A4)"
+  },
+  "btnPdfSingle": {
+    "message": "PDF (1 page)"
+  },
+  "btnCopy": {
+    "message": "Copy"
+  },
+  "btnDelete": {
+    "message": "Delete"
+  },
+  "cFormat": {
+    "message": "Format"
+  },
+  "cWebp": {
+    "message": "WebP (smallest)"
+  },
+  "cJpeg": {
+    "message": "JPG (opens anywhere)"
+  },
+  "cQuality": {
+    "message": "Quality"
+  },
+  "cWidth": {
+    "message": "Width"
+  },
+  "cOriginal": {
+    "message": "Original"
+  },
+  "cDownload": {
+    "message": "Download"
+  },
+  "libraryNote": {
+    "message": "Stored locally in this browser. Nothing is uploaded."
+  },
+  "notFound": {
+    "message": "This screenshot no longer exists."
+  },
+  "partOf": {
+    "message": "part {0} of {1}"
+  },
+  "truncated": {
+    "message": "This page was extremely long and was cut off at 60,000 pixels (probably infinite scrolling)."
+  },
+  "partsIntro": {
+    "message": "The page was too long for one image: "
+  },
+  "partN": {
+    "message": "part {0}"
+  },
+  "partsPdf": {
+    "message": "· PDF (A4) contains all parts."
+  },
+  "partsCount": {
+    "message": "{0} parts"
+  },
+  "busy": {
+    "message": "Working…"
+  },
+  "failed": {
+    "message": "Failed: {0}"
+  },
+  "copied": {
+    "message": "Copied to the clipboard."
+  },
+  "deleted": {
+    "message": "Screenshot deleted."
+  },
+  "calculating": {
+    "message": "Calculating…"
+  },
+  "webpTooLong": {
+    "message": " · too long for WebP, JPG used"
+  },
+  "notSmaller": {
+    "message": "(not smaller)"
+  },
+  "libraryEmpty": {
+    "message": "No screenshots yet. Click the Burg Screenshot icon or press Alt+Shift+F on a page."
+  },
+  "remove": {
+    "message": "Delete"
+  },
+  "filePart": {
+    "message": "part"
+  },
+  "fileSmall": {
+    "message": "small"
+  }
+}

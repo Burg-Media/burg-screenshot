@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Burg Screenshot</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <img src="../images/icon_48.png" alt="" width="24" height="24" />
+      <div class="pt">
+        <strong>Burg Screenshot</strong>
+        <span class="host" data-i18n="popupSubtitle"></span>
+      </div>
+    </header>
+
+    <div class="actions">
+      <button class="action primary" data-mode="full">
+        <span class="title" data-i18n="modeFull"></span>
+        <span class="sub">Alt+Shift+F</span>
+      </button>
+      <div class="two">
+      <button class="action" data-mode="selection">
+        <span class="title" data-i18n="modeSelection"></span>
+        <span class="sub">Alt+Shift+S</span>
+      </button>
+      <button class="action" data-mode="visible">
+        <span class="title" data-i18n="modeVisible"></span>
+        <span class="sub" data-i18n="modeVisibleSub"></span>
+      </button>
+      </div>
+    </div>
+
+    <div id="status" class="status" hidden>
+      <div class="bar"><div id="bar-fill"></div></div>
+      <span id="status-text"></span>
+    </div>
+
+    <fieldset class="settings">
+      <legend data-i18n="modeFull"></legend>
+      <label class="check">
+        <input type="checkbox" id="lazy" />
+        <span data-i18n="lazyLabel"></span>
+      </label>
+    </fieldset>
+
+    <footer>
+      <a href="../viewer/viewer.html" target="_blank" id="library" data-i18n="myScreenshots"></a>
+      <a href="chrome://extensions/shortcuts" id="shortcuts" data-i18n="shortcuts"></a>
+    </footer>
+
+    <p class="made-by"><span data-i18n="madeBy"></span> <a href="https://burgmedia.eu/?utm_source=burg-screenshot&amp;utm_medium=extension&amp;utm_campaign=popup" target="_blank" rel="noopener">Burg Media</a></p>
+
+    <script src="../lib/i18n.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
